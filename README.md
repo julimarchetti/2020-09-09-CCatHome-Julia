@@ -5,3 +5,8 @@ just like git init do only one per repo
 - 'git branch <branch_name>': create a new branch were you are ('HEAD')
 - 'git switch <branch_name>': moves you to '<branch_name>'
 - 'git chekcout <branch_name>': pre aug 2019 
+
+- git branch -d <branch_name>`: this will delete <branch_name> on your local computer
+- `git fetch --prune`: will update your local git tree with the remote 
+- the prune will also delete references to branches that were deleted on the remote
+
